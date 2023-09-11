@@ -254,4 +254,28 @@ blockquote {
 .footer {
   padding: 20px;
   border-top: 1px solid #FEE42A;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__copy {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 135%; 
+}
+
+.footer__links {
+  list-style: none;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 16px;
+}
+  
+.footer__links a {  
+  color: #F5F5F5; 
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 125%;
+  text-decoration: none;
 }
